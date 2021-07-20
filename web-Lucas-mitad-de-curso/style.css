@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -20,7 +20,7 @@ ul {
     display: flex;
     align-items:center;
         justify-content: space-between;
-    padding: bottom;
+    /*padding: bottom;*/
 }
 /* NAV */
 .main-nav {
@@ -79,8 +79,8 @@ padding: 0;
 .flex-main{
     display: flex;
 }
-.flex-left,.flex-right {
-    margin: 0;
+.main-left,.main-right {
+    margin: 10px;
     padding: 0px 30px;
    }
 
@@ -113,7 +113,9 @@ h2{
   background-color: burlywood;
 
 }
-
+img {
+  max-width: 100%;
+}
 
 /*SECTION CARDS*/
 .flex-container {
@@ -180,38 +182,54 @@ footer {
   }
 }*/
  
- @media (max-width: 768px) {
+ @media (max-width: 1024px) {
     body {
-      padding-top: 200px;
+      margin: 0 auto;
+      /*padding-top: 200px;*/
     }
+    .container{
+      max-width: 1024px;
+      margin: 0 auto;
+  }
     
     h1 {
-      font-size: 24px;
+      font-size: 32px;
     }
-
+    
     .main-nav {
       text-align: center;
       display: flex;
     }
     .main-nav-logo{
-        flex-direction: column;
-        justify-content: left;
-    }
-.flex-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    .main-nav-ul {
-      /*display: block;*/
       flex-direction: column;
-      justify-content: center;
+      justify-content: left;
     }
-  
+    .flex-main,footer{
+      display: flex;
+      flex-direction: column;
+    align-items: center;
+  }
+.main-nav-ul,.footer-ul {
+  /*display: block;*/
+  flex-direction: column;
+  justify-content: center;
+    }
+    
     .flex-container {
       flex-direction: column;
       align-items: center;
     }
   }
 
+ @media (max-width: 768px) {
 
+  
+  .container{
+    max-width: 768px;
+    margin: 0 auto;
+}
+  
+  h1 {
+    font-size: 24px;
+  }
+}

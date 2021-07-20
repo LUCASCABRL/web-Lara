@@ -196,6 +196,10 @@ footer {
       font-size: 32px;
     }
     
+    .main-p {
+      color: black;
+      font-size: 20px;
+  }
     .main-nav {
       text-align: center;
       display: flex;

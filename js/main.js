@@ -5,6 +5,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         dots: true,
+        infinite: true,
 
       })
   });

@@ -5,8 +5,9 @@ body{
 .slider-container{
     max-width: 600px;
     margin: 0 auto;
+    
 }
 
 .slide-container img{
     max-width: 100%;
-}
+   }

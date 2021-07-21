@@ -4,8 +4,10 @@
 }
 
 body {
-    margin: 0 auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;/*
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Bungee', cursive;
+  font-family: 'Open Sans', sans-serif; 
 }
 .container{
     max-width: 1200px;
@@ -27,7 +29,7 @@ ul {
 .main-nav {
     padding: 15px 0;
     background-color: rgb(236, 234, 234);
-box-shadow: 0px 3px 3px  rgb(17, 16, 16);
+box-shadow: 10px 0px 10px 0.5px rgb(17, 16, 16);
 
 position: fixed;
   top: 0;
@@ -54,6 +56,8 @@ backdrop-filter: saturate(180%) blur(20px);
     padding: 10px;
     color: rgb(17, 17, 17);
     text-decoration: none;
+    font-family: 'Bungee', cursive;
+  font-family: 'Open Sans', sans-serif; 
 
 }
 
@@ -73,11 +77,15 @@ backdrop-filter: saturate(180%) blur(20px);
 }
 
 .main-title{
-    color: black;
-    font-size: 70px;
+  font-family: 'Bungee', cursive;
+    color: #000000;
+    font-size: 60px;
 margin: 0;
-padding: 0;}
+padding: 0;
+}
 .p-title {
+  font-family: 'Bungee', cursive;
+  font-family: 'Open Sans', sans-serif; 
     color: rgb(172, 99, 16);
     font-size: 40px;
     margin: 0;
@@ -117,9 +125,15 @@ h2{
     font-size: 25px;
   }
 /*SECTION PORTFOLIO*/
+section{
+  position:relative;
+  width: 100%;
+
+}
 
 .portfolio{
   background-color: burlywood;
+  margin: 0;
 
 }
 img {
@@ -129,7 +143,14 @@ img {
 /*SECTION CARDS*/
 .flex-container {
     display: flex;
-  }
+          
+      }
+.section-cursos{
+  background-color: rgb(250, 243, 215);
+  position:relative;
+  width: 100%;
+  margin: 0;
+}
 
 .card {
   margin: 20px;

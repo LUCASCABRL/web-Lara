@@ -230,7 +230,9 @@ backdrop-filter: saturate(180%) blur(20px);
       box-sizing: border-box;
     }
 
-    
+    .slide-container-img{
+      max width: 1024px;
+    }
     
     body {
       margin: 0 auto;
@@ -281,7 +283,9 @@ backdrop-filter: saturate(180%) blur(20px);
   body {
     margin: 0 auto;
 }
-
+.slide-container-img{
+  max width: 768px;
+}
   
   .container{
     max-width: 768px;
